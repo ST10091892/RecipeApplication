@@ -19,3 +19,5 @@ HOW TO COMPILE AND RUN THE APPLICATION:
 -The ClearData function of the Recipe class is called when the user chooses the option to clear the data. This method basically deletes all previously input data for the recipe by setting all of the private fields of the Recipe object to their default settings. Particularly, the fields numOfSteps, steps, numOfIngredients, ingredients, quantities, units, and numOfUnits are all set to their default values (0 and null, respectively). The user can start entering a fresh recipe from scratch when the data has been cleaned.
 When the user chooses to exit the application, the Environment.Exit(0) method is called, which terminates the program and returns the exit code 0 to the operating system. This will close the console window and end the program's execution.
 
+GITHUB REPOSITORY: 
+https://github.com/ST10091892/RecipeApplication.git
